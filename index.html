@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Privacy Policy for Student AI Assistant.">
+  <meta name="description" content="Privacy Policy for Student AI Assistant, including Google Sign-In, AI requests, photos, voice input, advertising, and data deletion.">
   <title>Privacy Policy – Student AI Assistant</title>
   <style>
     :root { color-scheme: light; --navy: #142b4a; --gold: #c69b43; --ink: #263445; --muted: #5d6b7a; --paper: #ffffff; --bg: #f3f6fa; }
@@ -25,46 +25,49 @@
   <header>
     <h1>Privacy Policy</h1>
     <p><strong>Student AI Assistant</strong></p>
-    <p class="date">Last updated: November 7, 2026</p>
+    <p class="date">Last updated: November 9, 2026</p>
   </header>
 
   <p>This Privacy Policy explains how Student AI Assistant handles information when you use the app. The information processed depends on the features you choose to use.</p>
 
   <h2>1. Information that may be processed</h2>
   <ul>
-    <li><strong>Google Sign-In:</strong> If you sign in with Google, the app receives account information such as your Google account email address and display name, along with authentication information used to verify the sign-in.</li>
-    <li><strong>Profile information:</strong> Information you enter, such as your name, school, country, education level and selected subjects. The app also stores a profile-image file path on your device.</li>
-    <li><strong>Learning activity:</strong> Quiz attempts, scores, question totals, correct-answer totals, completed quiz details and related progress information.</li>
-    <li><strong>AI requests:</strong> Questions, selected subjects and other content you submit to the app's AI features.</li>
-    <li><strong>Photos:</strong> Images you choose from your gallery or take and submit for AI homework assistance.</li>
-    <li><strong>Voice input:</strong> Voice input when you activate the app's speech-to-text feature. The Android app requests microphone access for this feature.</li>
-    <li><strong>Advertising information:</strong> Advertising-related information may be processed by Google AdMob when ads are served, subject to Google's services and settings.</li>
+    <li><strong>Google Sign-In and account details:</strong> When you sign in with Google, the app and its backend process your Google sign-in token to verify authentication. The backend receives account details returned by Google, including your Google account identifier, email address and display name. The app may save your display name and email locally on your device.</li>
+    <li><strong>Profile information:</strong> Information you enter, such as your name, school, country, education level and selected subjects. The app stores profile details and a profile-image file path locally on your device.</li>
+    <li><strong>Learning activity:</strong> Quiz attempts, scores, question totals, correct-answer totals, completed quiz details and related progress information. These learning records are stored locally on your device.</li>
+    <li><strong>AI requests and conversation content:</strong> Questions, selected subjects and conversation context you submit through AI features. Typed questions and recognized speech text are sent to the app's online backend when you submit a request.</li>
+    <li><strong>Photos:</strong> Images you choose from your gallery or take and submit for AI homework assistance. A submitted image is uploaded to the app's backend for processing.</li>
+    <li><strong>Voice input:</strong> When you activate speech-to-text, the app uses the device's speech-recognition service to convert speech into text. The recognized text is placed in the question field. When you submit it, that text is sent to the app's backend. The app's backend request sends the recognized text, not an audio recording. The speech-recognition service may process audio under its own terms and privacy settings.</li>
+    <li><strong>Advertising and device information:</strong> Google Mobile Ads (AdMob) may process or share advertising-related information, including device or other IDs, approximate location inferred from network information, app interactions and diagnostics, for purposes such as advertising, analytics, fraud prevention, security and compliance.</li>
+    <li><strong>Technical information:</strong> When the app communicates with online services, those services and hosting infrastructure may receive technical information such as network and request information needed to deliver, protect and troubleshoot the service.</li>
   </ul>
 
   <h2>2. How information is used</h2>
-  <p>Information is used to provide app features, authenticate sign-ins, personalize the learning experience, save quiz progress, answer questions, process submitted homework photos, support voice input, maintain and secure the service, and display ads where enabled.</p>
+  <p>Information is used to provide app features, authenticate sign-ins, personalize the learning experience, save quiz progress, answer questions, process submitted homework photos, support speech-to-text input, maintain and secure the service, and display and measure ads where enabled.</p>
 
   <h2>3. AI processing and service providers</h2>
-  <p>Student AI Assistant uses an online backend to handle certain requests. Depending on the feature and service availability, submitted questions may be processed by Google Gemini or Cloudflare Workers AI. Photos submitted for homework assistance are sent to the app's backend and forwarded to Google Gemini for processing.</p>
-  <p>Google Sign-In is used to authenticate users. Google AdMob is integrated for advertising. These providers process information under their own terms and privacy policies. The app developer does not control the independent data practices of those providers.</p>
+  <p>Student AI Assistant uses an online backend hosted on Render to handle certain requests. Depending on the feature and service availability, submitted question text and related conversation context may be processed by Google Gemini or Cloudflare Workers AI. Photos submitted for homework assistance are sent to the app's backend and forwarded to Google Gemini for image processing.</p>
+  <p>Google is also used for sign-in and may provide the device's speech-recognition service. Google Mobile Ads (AdMob) is integrated for advertising. These providers process information as needed to provide their services and under their own applicable terms and privacy policies. Their independent data practices are not controlled by the app developer. You can review the providers' privacy information through their official websites.</p>
 
-  <h2>4. Photos and microphone</h2>
-  <p>You choose whether to submit a photo or activate voice input. A submitted photo is transmitted to the app's backend for AI processing. Microphone access is used for speech-to-text input when you activate that feature. You can manage app permissions through your device settings; disabling a permission may make the related feature unavailable.</p>
+  <h2>4. Photos, camera and microphone</h2>
+  <p>You choose whether to select or take a photo and submit it for homework assistance. A submitted photo is transmitted to the app's backend and then to Google Gemini for processing. The app uses microphone access only when you activate speech-to-text input. Speech recognition may be provided by your device or its speech service provider. You can manage app permissions through your device settings; disabling a permission may make the related feature unavailable.</p>
 
-  <h2>5. Storage and retention</h2>
-  <p>Some profile and learning information is stored locally on your device using app storage. Information you submit for online features is transmitted to the app's backend and relevant service providers to process your request. Retention periods may depend on the service provider and its applicable policies. This policy does not promise that information processed by an independent provider is immediately deleted.</p>
+  <h2>5. Local storage, retention and deletion</h2>
+  <p>Some profile details, Google display name and email, profile-image path, and quiz progress are stored locally on your device. They remain there until you clear the relevant information, clear the app's storage or uninstall the app, subject to your device's behavior.</p>
+  <p>Questions and photos are transmitted to online services to answer the request. The app developer does not promise that information processed by independent service providers is immediately erased after a request. Those providers may retain information under their own policies. When a valid deletion request is received, the developer will review information under the developer's control and, where applicable, request deletion of information processed by service providers on the developer's behalf. Limited information may be retained where necessary for legal obligations, security, fraud prevention or compliance.</p>
+  <p>To request deletion of your Student AI Assistant account and associated information, visit the <a href="https://tarrernest5-ops.github.io/student-ai-privacy-policy/delete-account.html">Account and Data Deletion page</a>. Local information on your device may also need to be cleared from the app or Android settings.</p>
 
   <h2>6. Sharing</h2>
-  <p>The app does not sell your personal information. Information may be transmitted to the service providers described in this policy when necessary to provide sign-in, AI processing, hosting or advertising features. Information may also be disclosed where required by law or to protect the security and integrity of the service.</p>
+  <p>The app does not sell your personal information. Information is transmitted to service providers when needed for Google sign-in, speech recognition, AI processing, backend hosting and advertising. AdMob may collect or share advertising and device information for advertising, analytics, fraud prevention, security and compliance. Information may also be disclosed where required by law or to protect the security and integrity of the service.</p>
 
   <h2>7. Security</h2>
-  <p>Reasonable measures are used to protect information handled by the app. No method of electronic transmission or storage is completely secure, and absolute security cannot be guaranteed.</p>
+  <p>Information sent between the app and its online backend is transmitted over HTTPS. Reasonable measures are used to protect information handled by the app and its service providers. No method of electronic transmission or storage is completely secure, and absolute security cannot be guaranteed.</p>
 
   <h2>8. Your choices and privacy requests</h2>
-  <p>You can choose whether to use Google Sign-In, submit photos, or activate voice input. You can manage microphone permissions through your device settings. For questions or requests about information handled by the app, contact the developer at the email below. Requests concerning information held by third-party providers may also need to be made directly to those providers.</p>
+  <p>You can choose whether to sign in with Google, submit photos, or activate speech-to-text. You can manage camera and microphone permissions through your device settings. You can request deletion of information associated with Student AI Assistant using the <a href="https://tarrernest5-ops.github.io/student-ai-privacy-policy/delete-account.html">Account and Data Deletion page</a>. Requests concerning information held independently by third-party providers may also need to be made directly to those providers.</p>
 
   <h2>9. Children's privacy</h2>
-  <p>Student AI Assistant is an educational app. The developer does not knowingly intend to collect personal information from children under 13 through features directed specifically at them. If you are a parent or guardian and believe a child has provided personal information, contact the developer so the concern can be reviewed.</p>
+  <p>Student AI Assistant is an educational app. The developer does not knowingly intend to collect personal information from children under 13 through features directed specifically at them. If a parent or guardian believes a child under 13 has provided personal information, they may contact the developer using the email below so the concern can be reviewed.</p>
 
   <h2>10. Changes to this policy</h2>
   <p>This policy may be updated if the app's features, service providers or data practices change. The updated policy will be published at this webpage with a revised date.</p>
@@ -75,6 +78,7 @@
 
   <footer>
     <p>Student AI Assistant · Privacy Policy</p>
+    <p><a href="https://tarrernest5-ops.github.io/student-ai-privacy-policy/delete-account.html">Account and Data Deletion</a></p>
   </footer>
 </main>
 </body>
